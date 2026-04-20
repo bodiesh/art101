@@ -1,0 +1,17 @@
+body {
+    background: red;
+    padding: 50px
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: aliceblue
+}
+
+img {
+    width: 500px;
+}
