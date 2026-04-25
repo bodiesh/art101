@@ -19,6 +19,7 @@ img {
     margin: 0 auto 0 auto;
     background: white;
     padding: 30px;
+    border-radius: 12px;
 }
 
 .top {
