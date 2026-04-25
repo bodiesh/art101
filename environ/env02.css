@@ -1,0 +1,24 @@
+body {
+  background-image: url("background02.jpg");
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+mark {
+    background-color: darkturquoise;
+    color: white;
+}
+img {
+    width: 200px;
+}
+
+#water {
+    display: flex;
+    gap: 0px
+}
+
+#ocean-floor img {
+    width: 1000px
+}
