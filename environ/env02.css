@@ -6,6 +6,11 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     
 }
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
 mark {
     background-color: darkturquoise;
     color: white;
@@ -21,4 +26,15 @@ img {
 
 #ocean-floor img {
     width: 1000px
+}
+
+#environment-output {
+    width:fit-content;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 12px;
+}
+.button-link {
+  color: black;
+  text-decoration: none;
 }
