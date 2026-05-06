@@ -1,0 +1,42 @@
+h1{
+    font-family: cursive;
+    color: yellow
+}
+body{
+    background-color: darkgreen;
+
+}
+p{
+    color: white;
+}
+#crAdd{
+    background-color: darkgreen;
+    color: white;
+}
+
+#creature-form {
+   background: green;
+   padding: 20px;
+   margin: 50px;
+}
+
+#creature-form DIV {
+   margin-bottom: 20px;
+}
+
+#creature-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   margin: 50px;
+}
+
+
+#creature-list>DIV {
+   background: pink;
+   width: 100px;
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
