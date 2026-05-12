@@ -1,0 +1,16 @@
+h1{
+    font-family: cursive;
+    color: navy
+}
+body{
+    background-color: lightcyan;
+
+}
+#good-button{
+    background-color: navy;
+    color: white;
+}
+.output p{
+    color:aliceblue;
+    font-family: sans-serif;
+}
