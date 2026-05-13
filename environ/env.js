@@ -42,6 +42,6 @@ $("#activity-button").click(function(){
     }
     else {
         console.log("lame activity")
-        {$("#output").html("never heard of that");}
+        {$("#activity-soundtrack").html("never heard of that");}
     }
 });
