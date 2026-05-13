@@ -22,3 +22,26 @@ $("#seahorse-button").click(function(){
 $("#boot-button").click(function(){
     console.log("boot clicked");
 })
+
+
+$("#activity-button").click(function(){
+    let activity=$("#activity").val();
+    console.log("activity clicked");
+    if(activity === "surfing") {
+        console.log("surfing!!");
+        $("#surfing-sound")[0].play();
+    }
+    else if(activity === "scuba diving") {
+        console.log("scuba!!");
+        $("#scuba-sound")[0].play();
+    }
+    else if(activity === "snorkeling") {
+        console.log("snorkeling!!");
+        $("#snorkeling-sound")[0].play();
+
+    }
+    else {
+        console.log("lame activity")
+        {$("#output").html("never heard of that");}
+    }
+});
