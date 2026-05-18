@@ -1,5 +1,7 @@
 body {
   background-image: url("background02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
     color: white;
@@ -21,6 +23,8 @@ img {
 
 #water {
     display: flex;
+    margin-top: 500px;
+    margin-bottom: 100px;
     gap: 0px
 }
 
@@ -28,6 +32,7 @@ img {
     width: 1000px
 }
 #environment-output {
+    margin-bottom: 50px;
     width:fit-content;
     background-color: aqua;
     padding: 20px;
