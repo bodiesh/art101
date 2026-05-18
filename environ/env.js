@@ -45,3 +45,8 @@ $("#activity-button").click(function(){
         {$("#activity-soundtrack").html("never heard of that");}
     }
 });
+
+$("#seahorse").click(function () {
+    console.log("flip the horse")
+    $(this).toggleClass("upside-down");
+});
