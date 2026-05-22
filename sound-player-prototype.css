@@ -1,0 +1,32 @@
+h1 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2.2in;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#welcome-instructions p {
+    font-family: sans-serif;
+    font-size: larger
+}
+
+#sounds-list {
+    display: flex;
+}
+
+.sound {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+}
+
+.sound-body {
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
