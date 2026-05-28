@@ -12,37 +12,30 @@ let mainEntity = {
 
 $("#fish-button").click(function(){
     console.log("fish clicked");
-    $("#fish-button").html("the fish is not friendly. it challenged you to a fight.");
+    $("#environment-output").append("<h3>the fish is not friendly. it challenged you to a fight.</h3>");
 })
+
 $("#seahorse-button").click(function(){
     console.log("seahorse clicked");
     $("body").append("<img width=400 src='seahorse-heart.gif'>");
-
 })
+
 $("#boot-button").click(function(){
     console.log("boot clicked");
 })
 
-
-$("#activity-button").click(function(){
-    let activity=$("#activity").val();
-    console.log("activity clicked");
-    if(activity === "surfing") {
-        console.log("surfing!!");
-        $("#surfing-sound")[0].play();
-    }
-    else if(activity === "scuba diving") {
-        console.log("scuba!!");
+$("#activities").change(function(){
+    const selectedValue = $(this).val();
+    console.log("Selected value:", selectedValue);
+    console.log("Selected text:", $("#activities option:selected").text());
+    if(selectedValue === "1") {
         $("#scuba-sound")[0].play();
     }
-    else if(activity === "snorkeling") {
-        console.log("snorkeling!!");
-        $("#snorkeling-sound")[0].play();
-
+    else if(selectedValue === "2") {
+        $("#surfing-sound")[0].play();
     }
-    else {
-        console.log("lame activity")
-        {$("#activity-soundtrack").html("never heard of that");}
+    else if(selectedValue === "3") {
+        $("#snorkeling-sound")[0].play();
     }
 });
 
